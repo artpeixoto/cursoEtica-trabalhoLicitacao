@@ -48,7 +48,8 @@ Licitação:
       Regularidades Fiscal e Trabalhista: &docsRegs 
       Qualificação técnica: &docsQualTec 
         Documentos: 
-          - CAT:
-            
+          - CAT
           - CRQ:
-   
+            - Deve conter a relação dos responsáveis tecnicos.
+          - Atestado de vistoria ao local da obra
+  
