@@ -47,6 +47,8 @@ Licitação:
       Habilitação jurídica: &docsHabJur
       Regularidades Fiscal e Trabalhista: &docsRegs 
       Qualificação técnica: &docsQualTec 
-        Documentos: CAT e CRQ
-      
+        Documentos: 
+          - CAT:
+            
+          - CRQ:
    
