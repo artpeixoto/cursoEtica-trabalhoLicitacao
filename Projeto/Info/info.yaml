@@ -31,7 +31,7 @@ Licitação:
    - No edital, há anexos que, supostamente, podem servir de modelos iniciais pros documentos
  
  Empresa:
-  Nome da empresa: <tbd> #sugestão: Equatorial Calotas Engenharia
+  Nome da empresa: <tbd> #sugestão: Equatorial Concretos Armados Engenharia
   CNPJ: <tbd> #nota: >
    #não pode existir na vida real. 
    #A professora vai pesquisar depois o CNPJ e se ela achar
@@ -49,13 +49,16 @@ Licitação:
       Qualificação técnica: &docsQualTec 
         Documentos: 
           - CATs dos reponsáveis técnicos pela obra:
-            - Através de um ou mais atestados de capacidade técnica, acompanhados das respectivas certidões do Acervo técnico (CAT).
+            - Através de um ou mais atestados de capacidade técnica, acompanhados das respectivas certidões do Acervo técnico (CAT.
             - Requisitos mínimos:|
              (AND 
               [Atestados e certidões de execução das instalações elétricas, subestação, cabeamentos estruturados e o sistema de proteção contra descargas atmosféricas
               , Certidão de execução da automação de prédio comercial com área igual ou superior a 4000m2
-              , Certidão de gestão e otimização dos processos construtivos de uma obra comercial com área igual ou supererior a 4000m2]
-             )
+              , Certidão de gestão e otimização dos processos construtivos de uma obra comercial com área igual ou supererior a 4000m2
+              , <tbd>
+              , <tbd>
+              ])
+            - Possuir no quadro técnico, no dia da licitação
           - CRQ:
             - Deve conter a relação dos responsáveis tecnicos.
           - Atestado de vistoria ao local da obra
