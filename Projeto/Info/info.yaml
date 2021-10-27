@@ -1,33 +1,52 @@
 Metodologia: 
-	- Para trabalhar com documentos simples, vamos usar do *gdocs*, com os arquivos compartilhados. Os links para esses arquivos ficarão aqui e no nosso grupo de WhatsApp
-
+ - Para trabalhar com documentos simples, vamos usar do *gdocs*, com os arquivos compartilhados. Os links para esses arquivos ficarão aqui e no nosso grupo de WhatsApp
 
 Grupo:
-	Empresa: 6
-	Integrantes:
-		1: Felipe Fontes de Sousa Genaro
-		2: Frederico Caros Bariani
-		3: Artur Peixoto de Souza Lino
-		4: Jose Maria da Cunha Neto
-	
-	Responsabilidades:
-		- Depende dos Integrantes:
-		lista:
-			1: Credenciamento e habilitação jurídica
-			2: Regularidade fiscal
-			3: Qualificação técnica
-			4: Anexo, proposta e cronograma financeiro
-			
-		Detalhes:
-			Qualificação técnica: 
-				Documentos: CAT e CRQ
-
-Nome da empresa: <tbd> #sugestão: Equatorial Calotas Engenharia
-CNPJ: <tbd> #nota: não pode existir. A professora vai pesquisar depois o CNPJ e se ela achar uma empresa com o CNPJ associado ela tirará pontos.
-
-Apresentação:
-	- Será dada em dois envelopes.
-	- Como estamos em regime remoto, os envelopes não serão físicos. Ao invés disso, optou-se por comprimir todas as informações de cada envelope num arquivo .ppt relacionado. Em outras palavras, temos que apresentar dois arquivos envelope1.ppt e envelope2.ppt para a professora
-	- Horário final de entrega dos envelopes: dia 28/10/2021 às 23h59.
-	- Abaixo de cada documento, deve ter o nome do responsável por tal.
-	
+ Empresa: 6
+ Integrantes:
+  1: Felipe Fontes de Sousa Genaro
+  2: Frederico Caros Bariani
+  3: Artur Peixoto de Souza Lino
+  4: Jose Maria da Cunha Neto
+ 
+ Responsabilidades:
+  _: 
+   - Depende dos Integrantes
+   - ai to bem fudido
+  lista:
+   1: Credenciamento e habilitação jurídica {{ *docs1 }}
+   2: Regularidade fiscal                   {{ *docs2 }}
+   3: Qualificação técnica                  {{ *docs3 }}
+   4: Anexo, proposta e cronograma financeiro {{ *docs4 }}
+     
+Licitação:
+ Modalidade: Concorrência
+ Tipo: Menor preço
+ <tbd>: Preço global
+ Contratante: INSTITUTO DE PRESERVAÇÃO E PLANEJAMENTO DO CERRADO E DO OXIGÊNIO DO CENTRO-OESTE BRASILEIRO
+ Edital: &idEdital
+  source: "Projeto/Info/Edital_Turma A01_2021_2.pdf"
+  _: 
+   - O edital {{ *idEdital }} é fundamental pro trabalho. Nele, há todas as informções necessárias para o trabalho. LEIAM-O!!
+   - No edital, há anexos que, supostamente, podem servir de modelos iniciais pros documentos
+ 
+ Empresa:
+  Nome da empresa: <tbd> #sugestão: Equatorial Calotas Engenharia
+  CNPJ: <tbd> #nota: >
+   #não pode existir na vida real. 
+   #A professora vai pesquisar depois o CNPJ e se ela achar
+   #uma empresa com o CNPJ associado ela tirará pontos.
+ Apresentação:
+  _: 
+    - Devem ser entregues as documentações em dois envelopes.
+    - Como estamos em regime remoto, os envelopes não serão físicos. Ao invés disso, optou-se por comprimir todas as informações de cada envelope num arquivo .ppt relacionado. Em outras palavras, temos que apresentar dois arquivos envelope1.ppt e envelope2.ppt para a professora
+    - Abaixo de cada documento, deve ter o nome do responsável por tal.
+  Horário final de entrega dos envelopes: dia 28/10/2021 às 23h59.
+  Documentos_Necessários:
+      Credenciamento: &docsCred
+      Habilitação jurídica: &docsHabJur
+      Regularidades Fiscal e Trabalhista: &docsRegs 
+      Qualificação técnica: &docsQualTec 
+        Documentos: CAT e CRQ
+      
+   
