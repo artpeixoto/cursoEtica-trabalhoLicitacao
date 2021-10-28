@@ -13,7 +13,7 @@ Grupo:
   _: 
    - Depende dos Integrantes
    - ai to bem fudido
-  lista:
+  lista: #mais detalhes sobre esses documentos abaixo
    1: Credenciamento e habilitação jurídica {{ *docs1 }}
    2: Regularidade fiscal                   {{ *docs2 }}
    3: Qualificação técnica                  {{ *docs3 }}
@@ -31,11 +31,10 @@ Licitação:
    - No edital, há anexos que, supostamente, podem servir de modelos iniciais pros documentos
  
  Empresa:
-  Nome da empresa: <tbd> #sugestão: Equatorial Concretos Armados Engenharia
-  CNPJ: <tbd> #nota: >
+  Nome da empresa: Malaquias Engenharia 
+  CNPJ: 77.615.421/0001-51 #nota: >
    #não pode existir na vida real. 
-   #A professora vai pesquisar depois o CNPJ e se ela achar
-   #uma empresa com o CNPJ associado ela tirará pontos.
+
  Apresentação:
   _: 
     - Devem ser entregues as documentações em dois envelopes.
