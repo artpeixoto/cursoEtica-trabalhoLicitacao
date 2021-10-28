@@ -1,5 +1,5 @@
 Metodologia: 
- - Para trabalhar com documentos simples, vamos usar do *gdocs*, com os arquivos compartilhados. Os links para esses arquivos ficarão aqui e no nosso grupo de WhatsApp
+ - Para trabalhar com documentos simples, vamos usar do *gdocs*, com os arquivos compartilhados. Os links para esses arquivos ficarão aqui e no nosso grupo de WhatsApp. Outra opção é o uso do libre office.
 
 Grupo:
  Empresa: 6
@@ -7,17 +7,29 @@ Grupo:
   1: Felipe Fontes de Sousa Genaro
   2: Frederico Caros Bariani
   3: Artur Peixoto de Souza Lino
-  4: Jose Maria da Cunha Neto
+  4: Jose Maria da Cunha Neto #desaparecido
  
  Responsabilidades:
   _: 
    - Depende dos Integrantes
    - ai to bem fudido
   lista: #mais detalhes sobre esses documentos abaixo
-   1: Credenciamento e habilitação jurídica {{ *docs1 }}
-   2: Regularidade fiscal                   {{ *docs2 }}
-   3: Qualificação técnica                  {{ *docs3 }}
-   4: Anexo, proposta e cronograma financeiro {{ *docs4 }}
+   1: Credenciamento e habilitação jurídica 
+   2: Regularidade fiscal                   
+   3: Qualificação técnica                  
+   4: Anexo, proposta e cronograma financeiro
+
+Empresa:
+  Nome da empresa: Malaquias Engenharia 
+  CNPJ: 77.615.421/0001-51 #nota: >
+    #não pode existir na vida real.
+  Registro CREA: <tbd>
+  Razão Social: Malaquias Engenharia Eireli
+  Endereço: Av. Francisco Bibiano, 399 - St. Urias Magalhães, Goiânia - GO, 74565-300
+  Objeto Social: <tbd>
+  Natureza Jurídica: <tbd>
+  CAU: <tbd>
+  Capital Social: <tbd>
      
 Licitação:
  Modalidade: Concorrência
@@ -29,19 +41,13 @@ Licitação:
   _: 
    - O edital {{ *idEdital }} é fundamental pro trabalho. Nele, há todas as informções necessárias para o trabalho. LEIAM-O!!
    - No edital, há anexos que, supostamente, podem servir de modelos iniciais pros documentos
- 
- Empresa:
-  Nome da empresa: Malaquias Engenharia 
-  CNPJ: 77.615.421/0001-51 #nota: >
-   #não pode existir na vida real. 
-
- Apresentação:
-  _: 
-    - Devem ser entregues as documentações em dois envelopes.
-    - Como estamos em regime remoto, os envelopes não serão físicos. Ao invés disso, optou-se por comprimir todas as informações de cada envelope num arquivo .ppt relacionado. Em outras palavras, temos que apresentar dois arquivos envelope1.ppt e envelope2.ppt para a professora
-    - Abaixo de cada documento, deve ter o nome do responsável por tal.
-  Horário final de entrega dos envelopes: dia 28/10/2021 às 23h59.
-  Documentos_Necessários:
+  Apresentação:
+    _: 
+      - Devem ser entregues as documentações em dois envelopes.
+      - Como estamos em regime remoto, os envelopes não serão físicos. Ao invés disso, optou-se por comprimir todas as informações de cada envelope num arquivo .ppt relacionado. Em outras palavras, temos que apresentar dois arquivos envelope1.ppt e envelope2.ppt para a professora
+      - Abaixo de cada documento, deve ter o nome do responsável por tal.
+    Horário final de entrega dos envelopes: dia 28/10/2021 às 23h59.
+    Documentos_Necessários:
       Credenciamento: &docsCred
       Habilitação jurídica: &docsHabJur
       Regularidades Fiscal e Trabalhista: &docsRegs 
@@ -50,7 +56,7 @@ Licitação:
           - CATs dos reponsáveis técnicos pela obra:
             - Através de um ou mais atestados de capacidade técnica, acompanhados das respectivas certidões do Acervo técnico (CAT.
             - Requisitos mínimos:|
-             (AND 
+            (AND 
               [Atestados e certidões de execução das instalações elétricas, subestação, cabeamentos estruturados e o sistema de proteção contra descargas atmosféricas
               , Certidão de execução da automação de prédio comercial com área igual ou superior a 4000m2
               , Certidão de gestão e otimização dos processos construtivos de uma obra comercial com área igual ou supererior a 4000m2
