@@ -56,7 +56,7 @@ Licitação:
           - CATs dos reponsáveis técnicos pela obra:
             - Através de um ou mais atestados de capacidade técnica, acompanhados das respectivas certidões do Acervo técnico (CAT.
             - Requisitos mínimos:|
-            (AND 
+             (AND 
               [Atestados e certidões de execução das instalações elétricas, subestação, cabeamentos estruturados e o sistema de proteção contra descargas atmosféricas
               , Certidão de execução da automação de prédio comercial com área igual ou superior a 4000m2
               , Certidão de gestão e otimização dos processos construtivos de uma obra comercial com área igual ou supererior a 4000m2
