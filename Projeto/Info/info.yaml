@@ -23,13 +23,18 @@ Empresa:
   Nome da empresa: Malaquias Engenharia 
   CNPJ: 77.615.421/0001-51 #nota: >
     #não pode existir na vida real.
-  Registro CREA: <tbd>
+  Registro CREA: 97531
   Razão Social: Malaquias Engenharia Ltda
   Endereço: Av. Francisco Bibiano, 399 - St. Urias Magalhães, Goiânia - GO, 74565-300
-  Objeto Social: <tbd>
-  Natureza Jurídica: LTDA?
+  Objeto Social: 
+    - Prestação de Serviços de Elaboração de Projetos de Engenharia Civil, Engenharia Elétrica, Engenharia Mecânica, Arquitetura e Engenharia de Automação.
+    - Prestação de Serviços de Elaboração de Projetos de Engenharia Civil, Engenharia Elétrica, Engenharia Mecânica, Arquitetura e Engenharia de Automação.
+    - Prestação de Serviços de Gerenciamento, Fiscalização, Supervisão, Administração de Obras e Serviços de Recuperação Estrutural de Edificações.  
+    - Prestação de Serviços de Operação e Manutenção de Empreendimentos Públicos e Privados.
+
+  Natureza Jurídica: Sociedade Simples Limitada (ltda.)
   CAU: <tbd>
-  Capital Social: <tbd>
+  Capital Social: 700000.00
      
 Licitação:
  Modalidade: Concorrência
@@ -56,7 +61,7 @@ Licitação:
           - CATs dos reponsáveis técnicos pela obra:
             - Através de um ou mais atestados de capacidade técnica, acompanhados das respectivas certidões do Acervo técnico (CAT.
             - Requisitos mínimos:|
-            (AND 
+             (AND 
               [Atestados e certidões de execução das instalações elétricas, subestação, cabeamentos estruturados e o sistema de proteção contra descargas atmosféricas
               , Certidão de execução da automação de prédio comercial com área igual ou superior a 4000m2
               , Certidão de gestão e otimização dos processos construtivos de uma obra comercial com área igual ou supererior a 4000m2
